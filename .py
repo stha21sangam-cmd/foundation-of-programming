@@ -8,3 +8,6 @@ num3 = input("enter the num1:")
 num4 = input("enter the num2:")
 sum2 = num3 + num4
 print("the sum is " + sum2 +"and the type is " + str(type(sum2)))
+
+print(ord('a'))
+print(ord('🎲'))
