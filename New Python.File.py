@@ -128,3 +128,19 @@ print(~a)      # ~  → NOT → -6
 
 print(a << 1)  # << → shift bits left  → 1010 → 10
 print(a >> 1)  # >> → shift bits right → 0010 → 2
+
+
+a = [2,3,4]
+b = [2,3,4]
+c=a
+print(a is b)
+print (a is c)
+print(a==b)
+print (a==c)
+print(id(a))
+print(id(b))
+print(id(c))
+
+
+#assignment operator
+print(5==6)
